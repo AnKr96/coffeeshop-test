@@ -100,14 +100,14 @@
     flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
+    margin: 20px;
 }
 
-
-ul {
-    display: block;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.short-img {
+    height: calc( var(--mobile-img-width) * 0.9);
+}
+.long-img {
+    height: calc( var(--mobile-img-width) * 1.7 );
 }
 
 a {
