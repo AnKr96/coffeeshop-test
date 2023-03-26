@@ -268,10 +268,12 @@ body {
     height: 50vh;
     min-height: 25%;
     background-image: url(../images/FEND-Coffee-bags-2.jpg);
+    text-align: center;
 }
 
 .origin-text {
     color: white;
+    text-align: center;
     
 }
 
@@ -283,6 +285,12 @@ body {
 
 }
 
+.content-title {
+    color:black;
+    font-size: 36px;
+    text-align: center;
+}
+
 .location {
     font-size: 36px;
     font-weight: 900;
@@ -292,6 +300,11 @@ body {
 .packagingpicture {
     width: 214px;
     height: 284px;
+}
+
+iframe {
+    width:100%;
+    margin-top: 10%;
 }
 .footer {
     background-color: black;
