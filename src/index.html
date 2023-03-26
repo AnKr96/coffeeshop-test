@@ -10,14 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="/css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      
+          
   </head>
   <body>
       <div class="hero-section">
+        {{>header}}
         <div class="icon-container">
-          <img class="logo" src="images/icons/logo.svg"> <!--Bilder zu Images Ordner hinzufügen-->
+          <img class="logo" src="images/icons/logo.svg">
           <img class="hamburger" src="images/icons/burger_menu.svg">
         </div>
 
@@ -121,7 +120,7 @@
 
   <div class="content">
     <h2>Das steckt drin</h2>
-    <img class="content-picture" src="images/FEND_Coffee_Costa-Rica 2.png">
+    <img class="packagingpicture" src="images/FEND_Coffee_Costa-Rica 2.png">
 
     <h2 class="location">Komm vorbei</h2>
   </div>
@@ -130,23 +129,26 @@
 <footer>
     <section class="footer">
         <div class="footer-container">
+            <img class="logo" src="/images/icons/logo.svg">
             <p class="name">Rustica</p>
             <p class="place">Café & Rösterei</p> 
             <p>Komm uns besuchen! Fraunhoferstr. 13, Kiel</p>
              <p>Mo - Fr 8-18 Uhr Sa 11-18 Uhr</p>
-             <a href>Impressum</a>
+             <a href="imprint.html">Impressum</a>
             <a href>Datenschutz</a>
-            <a href>Café</a>
+            <a href="/sub-page/indexsubpage.html">Café</a>
             <a href>Shop</a>
-            <a href>Herkunft</a>
+            <a href="/sub-page/origin.html">Herkunft</a>
        </div>
     </section>
 </footer>
-      <img src=images/FEND-Coffee-bags-2.jpg>
+      
       </div>
       
-      <div>Home</div>
+    
     </main>
     <script src="/js/index.js" type="module"></script>
   </body>
+  <!--1.Wie arbeite ich mit Yarn?
+2. Was ist mit meiner Startseite passiert?-->
 </html>

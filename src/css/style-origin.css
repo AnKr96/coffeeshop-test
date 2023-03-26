@@ -3,11 +3,48 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
-h2m {
+
+.hero-section {
+    height: 50vh;
+    width:100;
+    background-image: url(../images/header_images/FEND-Coffee-beans-hand-2.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+    
+}
+
+.icon-container {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    padding-left: 24px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108%);
+}
+.hamburger {
+    float: right;
+    filter: invert(94%) sepia(0%) saturate(26%) hue-rotate(104deg) brightness(105%) contrast(108);
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+}
+
+h2 {
     font-size: 36px;
 
 }
 
-area-title {
+h3 {
     font-size: 32px;
 }
