@@ -274,7 +274,23 @@ body {
     border-radius: 5px;
     text-decoration: none;
     border: 4px solid #FFFFFF;
-}}
+}
+
+.origin-text {
+    font-size: 18px;
+}
+
+.origin {
+    text-decoration: none;
+    color: white;
+    padding-top: 10%;
+}
+
+.bean-quality {
+    text-align: center;
+}
+}
+    
 
 .product-button:hover {
     background: #3a3734;
@@ -289,6 +305,7 @@ body {
     height: 50vh;
     min-height: 25%;
     background-image: url(../images/FEND-Coffee-bags-2.jpg);
+    background-position: center;
     text-align: center;
 }
 
