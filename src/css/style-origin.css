@@ -7,7 +7,7 @@
 .hero-section {
     height: 50vh;
     width:100;
-    background-image: url(../images/header_images/FEND-Coffee-beans-hand-2.png);
+    background-image: url('../images/header_images/FEND-Coffee-beans-hand-2.png');
     background-size: cover;
     background-position: top;
     position: relative;

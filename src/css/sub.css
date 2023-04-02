@@ -143,3 +143,34 @@ iframe {
     line-height: 21px;
     font-weight: 400;
 }
+
+@media (min-width: 1040px) {
+
+    .h2 {
+        padding-top: 10%;
+        padding-bottom: 1%;
+    }
+
+    .coffee-header {
+        padding-top: 1%;
+        text-align: left;
+        width: 32%;
+    } 
+
+
+    .coffee-machine {
+    width: 45%;
+    height: 33%;
+}
+
+    .pastry-section-title{
+        text-align: center;
+        
+    }
+    .pastry-section-text {
+        padding-left: 28.6%;
+        padding-right: 30%;
+
+    }
+    
+}
