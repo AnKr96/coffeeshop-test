@@ -179,7 +179,6 @@ body {
 
 .flex-container-products {
     width: 100%;
-    max-width: 100px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -209,7 +208,29 @@ body {
         padding-left: calc((100% - 1000px) / 2);
         padding-right: calc((100% - 1000px) /2);
     }
+    .h2 {
+        padding-left: 10%;
+    }
+    .coffee-header {
+        width: 50%;
+    }
+    .coffee-shop {
+        width: 45%;
+        float: right;
+        
+    }
+    .flex-container {
+        width: 40%;
+        padding-left: 10%;
+        padding-top: 2%;
+        display: flex;
+        gap: 120px;
+    
 }
+
+    .coffee-plant {
+        width: 44%;
+    }
 
 
 .coffee-beans {
@@ -253,7 +274,7 @@ body {
     border-radius: 5px;
     text-decoration: none;
     border: 4px solid #FFFFFF;
-}
+}}
 
 .product-button:hover {
     background: #3a3734;
